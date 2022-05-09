@@ -1,0 +1,179 @@
+:root {
+  --gradient-linear: #5442d6;
+  --first-h1: #1700a1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'M PLUS Rounded 1c';
+}
+
+/* body {
+  margin-bottom: 500px;
+} */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.background-gradient {
+  background-image: linear-gradient(var(--gradient-linear), #fff);
+}
+
+.menu {
+  width: 100%;
+  height: 17.62em;
+}
+
+.flex-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2.62em;
+}
+
+#logo {
+  transition: transform 0.2s;
+}
+
+#logo:hover {
+  transform: scale(1.2);
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 1.38em;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #fff;
+  transition: 0.1s;
+}
+
+/* ====================================================================================== */
+
+.f-section {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 41.25em;
+  margin: 0 auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 6.62em;
+  color: var(--first-h1);
+}
+
+.click-button {
+  margin: 0 auto;
+  transition: transform 0.2s;
+}
+
+.click-button:hover {
+  transform: scale(1.2);
+}
+
+/* ====================================================================================== */
+
+.s-section {
+  margin-top: 19.88em;
+  width: 100%;
+  height: auto;
+}
+
+.second-container img {
+  margin: 0 auto;
+}
+
+/* ====================================================================================== */
+
+.t-section {
+  margin-top: 19.88em;
+  width: 100%;
+  height: auto;
+}
+
+.third-container img {
+  margin: 0 auto;
+}
+
+/* ====================================================================================== */
+
+.f-section {
+  margin-top: 19.88em;
+  width: 100%;
+  height: auto;
+}
+
+.fourty-container img {
+  margin: 0 auto;
+}
+
+/* ====================================================================================== */
+
+.ff-section {
+  margin-top: 19.88em;
+  margin-bottom: 62.5em;
+  width: 100%;
+  height: auto;
+}
+
+.fifth-container img {
+  margin: 0 auto;
+}
+
+/* ====================================================================================== */
+
+footer {
+  width: 100%;
+  height: auto;
+}
+
+.footer-content {
+  margin: 0 auto;
+  max-width: 31.25em;
+  text-align: center;
+}
+
+/* ====================================================================================== */
+
+.footer-content {
+  margin-right: 32em;
+}
+
+.footer-content h2 {
+  color: #fff;
+}
+
+#button2 {
+  margin-top: 1.88em;
+}
+
+.test {
+  background-image: url(/assets/imgs/gradient-bg.png);
+  background-size: cover;
+}
+
+.test footer {
+  height: 18.12em;
+}
+
+#fogao {
+  display: block;
+  max-width: 100%;
+  margin-right: 2em;
+}
+
+.flex-2 {
+  display: flex;
+  align-items: center;
+  flex: auto;
+}
